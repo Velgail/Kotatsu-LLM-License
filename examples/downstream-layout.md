@@ -1,6 +1,6 @@
 # 下流リポジトリでの推奨ファイル配置
 
-このドキュメントでは、全内容がLLM生成のリポジトリで自動生成非著作者宣言（AGNAD）を使用する際の推奨ファイル配置を示します。
+このドキュメントでは、全内容がLLM生成のリポジトリでこたつLLMライセンス（KLL）を使用する際の推奨ファイル配置を示します。
 
 ---
 
@@ -8,7 +8,7 @@
 
 ```text
 your-repo/
-├── LICENSE             ← 宣言本体（templates/LICENSE.ja.md を元にする）
+├── LICENSE             ← ライセンス本体（templates/LICENSE.ja.md を元にする）
 ├── NO_AUTHORSHIP.md    ← 事実前提の説明（templates/NO_AUTHORSHIP.ja.md を元にする）
 └── README.md           ← LICENSE と NO_AUTHORSHIP.md へのリンクを含む
 ```
@@ -18,7 +18,7 @@ your-repo/
 ```text
 your-repo/
 ├── LICENSES/
-│   └── AGNAD.md        ← 宣言本体（templates/LICENSE.ja.md を元にする）
+│   └── KLL.md          ← ライセンス本体
 ├── NO_AUTHORSHIP.md    ← 事実前提の説明
 └── README.md           ← 両ファイルへのリンクを含む
 ```
@@ -27,7 +27,7 @@ your-repo/
 
 ## 各ファイルの役割
 
-### `LICENSE`（または `LICENSES/AGNAD.md`）
+### `LICENSE`（または `LICENSES/KLL.md`）
 
 - `templates/LICENSE.ja.md` の内容をコピーして使用します。
 - 必要に応じて対象リポジトリの固有情報（リポジトリ名、維持管理者名など）を追記できます。
@@ -36,7 +36,7 @@ your-repo/
 ### `NO_AUTHORSHIP.md`
 
 - `templates/NO_AUTHORSHIP.ja.md` の内容をコピーして使用します。
-- 宣言の事実前提（維持管理者がLLMのみを使用し、人間による創作的著作を行っていないこと）を説明します。
+- ライセンスの事実前提（維持管理者がLLMのみを使用し、人間による創作的著作を行っていないこと）を説明します。
 - 実際の生成プロセスに合わせて内容を調整してください。
 
 ### `README.md`
@@ -62,10 +62,9 @@ your-repo/
 
 ## 注意事項
 
-- 宣言は、実際に前提が成立するリポジトリにのみ使用してください。
-- 人間が生成物を手動で編集した場合は、通常の著作権ライセンスを使用してください。
-- 第三者の権利に関する事項は、宣言によって自動的に解決されません。
-- 本配置例は法的助言ではありません。
+- ライセンスは、実際に前提が成立するリポジトリにのみ使用してください。
+- 人間が生成物を手動で編集・監修した場合は、通常の著作権ライセンスを使用してください。
+- 第三者の権利に関する事項は、本ライセンスによって自動的に解決されません。
 
 ---
 
@@ -73,9 +72,8 @@ your-repo/
 
 In a downstream fully LLM-generated repository, the recommended placement is:
 
-- **`LICENSE`** — The declaration body (based on `templates/LICENSE.ja.md`). Japanese is authoritative; include the English reference translation (`templates/LICENSE.en.md`) separately or appended.
+- **`LICENSE`** — The Kotatsu LLM License body (based on `templates/LICENSE.ja.md`). Japanese is authoritative; include the English reference translation (`templates/LICENSE.en.md`) separately or appended.
 - **`NO_AUTHORSHIP.md`** — The factual-premise statement (based on `templates/NO_AUTHORSHIP.ja.md`), describing that the human maintainer provided only goals/requirements and did not creatively author the output.
 - **`README.md`** — Should link to both files and include the content from `templates/README_SNIPPET.ja.md` (and/or the English version).
 
 Third-party rights and no-warranty notices should remain visible to users.
-This example is not legal advice.

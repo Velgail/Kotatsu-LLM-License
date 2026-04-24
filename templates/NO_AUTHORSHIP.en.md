@@ -1,4 +1,4 @@
-# Statement of Factual Premises for the Non-Authorship Declaration
+# Statement of Factual Premises for Non-Authorship
 
 > **The authoritative text of this document is Japanese. This English version is provided for reference only. If there is any discrepancy, the Japanese text prevails.**
 
@@ -6,8 +6,8 @@
 
 ## Overview
 
-This document explains the factual premises required for applying the Automated Generation Non-Authorship Declaration (AGNAD).
-It is recommended to place this file alongside the declaration itself in the root directory of the target repository.
+This document explains the factual premises required for applying the Kotatsu LLM License (KLL).
+It is recommended to place this file alongside the License itself in the root directory of the target repository.
 
 ---
 
@@ -22,7 +22,7 @@ The maintainer confirms the following facts regarding this repository (or conten
 ### Extent of Maintainer Involvement
 
 - The maintainer provided a goal, purpose, requirements, or instructions.
-- The maintainer did not creatively write, select, arrange, edit, supervise, or author the concrete expression of any generated output.
+- The maintainer did not creatively write, select, arrange, edit, supervise (monshu), or author the concrete expression of any generated output.
 
 ### Absence of Human Authorship
 
@@ -33,14 +33,14 @@ The maintainer confirms the following facts regarding this repository (or conten
 
 ## When the Premises Do Not Hold
 
-The factual premise of this declaration may not hold if any of the following applies:
+The factual premise of this License may not hold if any of the following applies:
 
 - A human manually edited or revised the generated expression.
 - A human made creative selections about which generated output to adopt.
 - A human creatively supervised the layout, structure, headings, or style.
 - A human added original expression sufficient to constitute authorship.
 
-If the premises do not hold, stop using this declaration and consider using a standard copyright license instead.
+If the premises do not hold, stop using this License and consider using a standard copyright license instead.
 
 ---
 
@@ -59,11 +59,5 @@ Users should be aware of these risks and bear independent responsibility for ver
 
 ## Third-Party Rights
 
-This declaration does not affect rights held by third parties (including copyright, trademark, rights of publicity, and similar rights).
+This License does not affect rights held by third parties (including copyright, trademark, rights of publicity, and similar rights).
 Where the contents of this repository may be subject to third-party rights, users bear independent responsibility for verifying and clearing such rights.
-
----
-
-## Not Legal Advice
-
-This document and the associated declaration are not legal advice. For specific legal questions, please consult a qualified professional.
